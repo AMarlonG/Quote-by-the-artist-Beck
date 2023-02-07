@@ -62,36 +62,75 @@ body {
 
 .content {
     max-width: min(20ch, 100% - 2rem);
+    width: fit-content;
     margin-inline: auto;
     color: black;
     text-align: center;
     font-family: var(--font-f);
-    font-size: 5rem;
     text-transform: uppercase;
+    font-size: 5rem;
     line-height: 0.95;
     margin-block: 15rem;
+    border: solid purple 2px;
 }
 
-.largest {
-    font-size: 10rem;
+.seven, .ten, .fifteen, .seventeen {
+    font-size: 20rem;
 }
 
-.xl {
-    font-size: 8rem;
+.one {
+    font-size: 12.3rem;
 }
 
-.l {
-    font-size: 6rem;
+.two {
+    font-size: 5.25rem;
 }
 
-.m {
-    font-size: 4.55rem;
+.three {
+    font-size: 6.75rem;
 }
 
-.n {
-    font-size: 3.8rem;
+.four {
+    font-size: 15.5rem;
 }
 
-.s {
-    font-size: 3.5rem;
+.five {
+    font-size: 5.8rem;
+}
+
+.six {
+    font-size: 12.7rem;
+}
+
+.eight {
+    font-size: 4.7rem;
+}
+
+.nine {
+    font-size: 7.63rem;
+}
+
+.eleven {
+    font-size: 9.1rem;
+}
+
+.twelve {
+    font-size: 6.8rem;
+}
+
+.thirteen {
+    font-size: 9.8rem;
+}
+
+.fourteen {
+    font-size: 6.4rem;
+}
+
+.sixteen {
+    font-size: 4.25rem;
+}
+
+.eighteen {
+    letter-spacing: 6rem;
+    padding-inline-start: 6.2rem;
 }
