@@ -68,18 +68,18 @@ body {
     text-align: center;
     font-family: var(--font-f);
     text-transform: uppercase;
-    /* font-size: 5rem; */
+    font-size: 5rem;
     line-height: 0.95;
     margin-block: 15rem;
     border: solid purple 2px;
 }
 
 .one {
-    font-size: calc(var(--cont-w) / 100% * 1em);
+    font-size: calc(var(--cont-w) / 100vw * 1em);
 }
 
 .text-one {
-    font-size: calc(var(--cont-w) / 100% * 1em);
+    font-size: calc(var(--cont-w) / 100vw * 1em);
 }
 
 /* 
