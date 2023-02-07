@@ -58,22 +58,31 @@ h6 {
 
 body {
     background-color: #F9F6EE;
+    --cont-w: min(12ch, 100% - 2rem)
 }
 
 .content {
-    max-width: min(11.5ch, 100% - 2rem);
-    width: fit-content;
+    width: var(--cont-w);
     margin-inline: auto;
     color: black;
     text-align: center;
     font-family: var(--font-f);
     text-transform: uppercase;
-    font-size: 5rem;
+    /* font-size: 5rem; */
     line-height: 0.95;
     margin-block: 15rem;
     border: solid purple 2px;
 }
 
+.one {
+    font-size: calc(var(--cont-w) / 100% * 1em);
+}
+
+.text-one {
+    font-size: calc(var(--cont-w) / 100% * 1em);
+}
+
+/* 
 .seven, .ten, .fifteen, .seventeen {
     font-size: 20rem;
 }
@@ -133,4 +142,6 @@ body {
 .eighteen {
     letter-spacing: 4.6rem;
     padding-inline-start: 0.4rem;
-}
+} */
+
+
