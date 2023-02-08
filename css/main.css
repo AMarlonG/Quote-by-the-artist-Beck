@@ -58,90 +58,92 @@ h6 {
 
 body {
     background-color: #F9F6EE;
-    --cont-w: min(12ch, 100% - 2rem)
 }
 
 .content {
-    width: var(--cont-w);
+    width: min(8ch, 100% - 3rem);
     margin-inline: auto;
     color: black;
     text-align: center;
+    justify-content: start;
     font-family: var(--font-f);
     text-transform: uppercase;
     font-size: 5rem;
     line-height: 0.95;
     margin-block: 15rem;
     border: solid purple 2px;
+    container-type: inline-size;
 }
 
 .one {
-    font-size: calc(var(--cont-w) / 100vw * 1em);
-}
-
-.text-one {
-    font-size: calc(var(--cont-w) / 100vw * 1em);
-}
-
-/* 
-.seven, .ten, .fifteen, .seventeen {
-    font-size: 20rem;
-}
-
-.one {
-    font-size: 12.3rem;
+    font-size: 44.2cqw;
 }
 
 .two {
-    font-size: 5.25rem;
+    font-size: 19cqw;
 }
 
 .three {
-    font-size: 6.75rem;
+    font-size: 24cqw;
 }
 
 .four {
-    font-size: 15.5rem;
+    font-size: 55cqw;
 }
 
 .five {
-    font-size: 5.8rem;
+    font-size: 21cqw;
 }
 
 .six {
-    font-size: 12.7rem;
+    font-size: 45cqw;
+}
+
+.seven {
+    font-size: 71cqw;
 }
 
 .eight {
-    font-size: 4.7rem;
+    font-size: 17cqw;
 }
 
 .nine {
-    font-size: 7.63rem;
+    font-size: 27cqw;
+}
+
+.ten {
+    font-size: 71cqw;
 }
 
 .eleven {
-    font-size: 9.1rem;
+    font-size: 32.5cqw;
 }
 
 .twelve {
-    font-size: 6.8rem;
+    font-size: 23.5cqw;
 }
 
 .thirteen {
-    font-size: 9.6rem;
+    font-size: 33.8cqw;
+    color: rgb(227, 25, 25);
 }
 
 .fourteen {
-    font-size: 6.4rem;
+    font-size: 22.1cqw;
+}
+
+.fifteen {
+    font-size: 70cqw;
 }
 
 .sixteen {
-    font-size: 4.25rem;
+    font-size: 15cqw;
+}
+
+.seventeen {
+    font-size: 71cqw;
 }
 
 .eighteen {
-    letter-spacing: 4.6rem;
-    padding-inline-start: 0.4rem;
-} */
-
-
+    font-size: 15cqw;
+}
