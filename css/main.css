@@ -68,7 +68,7 @@ body {
     justify-content: start;
     font-family: var(--font-f);
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 0.95;
     margin-block: 15rem;
     border: solid purple 2px;
