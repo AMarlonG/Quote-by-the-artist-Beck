@@ -91,7 +91,7 @@ body {
     content: close-quote;
     position: absolute;
     font-size: 10em;
-    color: rgb(227, 25, 25);
+    color: green;
     left: -5.2rem;
     top: -4.9rem;
     z-index: -1;
