@@ -61,6 +61,7 @@ body {
 }
 
 .content {
+    position: relative;
     width: min(8ch, 100% - 3rem);
     margin-inline: auto;
     color: black;
@@ -71,8 +72,26 @@ body {
     font-size: 4rem;
     line-height: 0.95;
     margin-block: 15rem;
-    border: solid purple 2px;
+    /* border: solid purple 2px; */
     container-type: inline-size;
+    z-index: 1;
+}
+
+.content::before {
+    content: open-quote;
+    position: absolute;
+    font-size: 10em;
+    color: rgb(227, 25, 25);
+    left: -11.2rem;
+    top: -6.9rem;
+    z-index: -1;
+}
+
+.content::after {
+    content: close-quote;
+    position: absolute;
+    font-size: 10em;
+    color: rgb(227, 25, 25);
 }
 
 .one {
