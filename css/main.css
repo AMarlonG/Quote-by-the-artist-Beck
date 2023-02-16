@@ -92,6 +92,9 @@ body {
     position: absolute;
     font-size: 10em;
     color: rgb(227, 25, 25);
+    left: ;
+    top: ;
+    z-index: -1;
 }
 
 .one {
