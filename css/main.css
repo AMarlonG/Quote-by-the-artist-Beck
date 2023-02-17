@@ -88,6 +88,7 @@ body {
 }
 
 .content::after {
+    content: '\201D';
     content: close-quote;
     position: absolute;
     font-size: 10em;
