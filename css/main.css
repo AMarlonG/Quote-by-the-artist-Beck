@@ -72,7 +72,6 @@ body {
     font-size: 4rem;
     line-height: 0.95;
     margin-block: 15rem;
-    /* border: solid purple 2px; */
     container-type: inline-size;
     z-index: 1;
 }
@@ -80,7 +79,7 @@ body {
 .content::before {
     content: open-quote;
     position: absolute;
-    font-size: 10em;
+    font-size: max(260cqw);
     color: rgb(227, 25, 25);
     left: -11.2rem;
     top: -6.9rem;
@@ -88,13 +87,14 @@ body {
 }
 
 .content::after {
+    /* For Chrome until bug is fixed */
     content: '\201D';
     content: close-quote;
     position: absolute;
-    font-size: 10em;
-    color: green;
-    left: -5.2rem;
-    top: -4.9rem;
+    font-size: max(260cqw);
+    color: rgb(227, 25, 25);
+    left: 8.5rem;
+    top: 96.5rem;
     z-index: -1;
 }
 

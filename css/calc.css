@@ -8,6 +8,7 @@
     --font-f: 'Anton',sans-serif;
 
 /* Font sizes */
-    
+    /* Step 5: 48.83px → 159.93px */
+    --step-5: clamp(3.05rem, calc(0.64rem + 12.08vw), 10.00rem);
 
 }
